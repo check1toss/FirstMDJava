@@ -6,7 +6,7 @@ public class Adress {
 	
 	private City city;
 	private String streetOrHouseTitle;
-	private int houseNo;
+	private String houseNo;
 	
 	
 }
