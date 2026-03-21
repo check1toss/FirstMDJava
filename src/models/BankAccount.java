@@ -47,11 +47,6 @@ public class BankAccount {
 		return balance;
 	}
 
-	@Override
-	public String toString() {
-		return "BankAccount [ID_BankAccount=" + ID_BankAccount + ", iban=" + iban + ", balance=" + balance + ", active="
-				+ active + "]";
-	}
 
 	public void setBalance(double balance) {
 		this.balance = balance;
@@ -64,5 +59,15 @@ public class BankAccount {
 	public void setActive(boolean active) {
 		this.active = active;
 	}
+	
+	
+	@Override
+	public String toString() {
+		return "BankAccount [ID_BankAccount=" + ID_BankAccount + ", iban=" + iban + ", balance=" + balance + ", active="
+				+ active + "]";
+	}
+	
+	
+	
 
 }
